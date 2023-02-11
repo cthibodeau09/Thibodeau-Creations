@@ -18,6 +18,10 @@ main {
     padding:0;
 }
 
+.aside {
+    float: right;
+}
+
 h1 {
     text-align: center;
     margin: 40px;
@@ -38,15 +42,19 @@ h2 {
     margin: auto;
     background-color: #A3F0A1;
     overflow: auto;
-    box-shadow: #000(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2%;
+    box-shadow: 8px 8px #A8BDBF;
 }
 
 .my-work {
     margin: 10px;
     float: left;
-    width: 200px;
-    border-radius: 2%;
+}
 
+.my-work:hover{
+    box-shadow: 0 0 100px var(--dark); 
 }
 
 /* Navigation */
