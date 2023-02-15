@@ -28,6 +28,7 @@ h1 {
 
 .about-me {
     display: inline-block;
+    float: left;
     background-color: black;
     width: 800px;
     height: 500px;
@@ -35,6 +36,7 @@ h1 {
 }
 .about-me1 {
     display: inline-block;
+    float: right;
     background-color: blue;
     width: 800px;
     height: 500px;
@@ -53,7 +55,8 @@ h2 {
 }
 
 .container {
-    max-width: 1400px;
+    display: inline-block;
+    width: 1400px;
     margin: auto;
     background-color: #9CD8BD;
     overflow: auto;
