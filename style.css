@@ -1,74 +1,11 @@
+/*Color shortcuts*/
+
 :root {
     --dark: black;
     --light: #fff;
     --media: #bb8588;
 }
 
-
-
-body {
-    position: relative;
-    background-color: var(--light);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: var(--dark);
-    text-align: center;
-}
-
-
-
-main {
-    margin:0;
-    padding:0;
-}
-
-
-h1 {
-    text-align: center;
-    margin: 40px;
-}
-
-.about-me {
-    display: inline-block;
-    float: left;
-    background-color: var(--light);
-    margin: auto;
-    width: 100%;
-    height: 500px;
-    color: var(--dark);
-}
-
-
-h2 {
-    text-align: center;
-    margin: 20px;
-}
-
-
-.image {
-    border: 3px solid teal;
-    width: 400px;
-    height: 300px;
-}
-
-.container {
-    display: inline-block;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #9CD8BD;
-    overflow: auto;
-    box-shadow: 6px 6px #A8BDBF;
-    border-radius: 10px;
-}
-
-.my-work {
-    float: left;
-    margin: 10px;
-}
-
-.first {
-    width: 400px;
-    height: 300px;
-}
 
 /* Navigation */
 
@@ -91,15 +28,101 @@ nav li {
 
  nav a{
     color: var(--dark);
-    text-decoration: none;
+    text-decoration:overline;
     text-transform: uppercase;
-    font-size: 25px;
+    text-decoration-color: #772014;
+    font-size: 22px;
     padding-top: 23px;
 }
 
-a:hover{
+
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .3;
+}
+nav ul li a:hover {
+  color: var(--light);
+}
+
+
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+
+
+/* Main Body*/
+body {
+    position: relative;
     background-color: var(--light);
-    padding-top:8px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--dark);
+    text-align: center;
+}
+
+main {
+    margin:0;
+    padding:0;
+}
+
+/*Font*/
+
+h1 {
+    text-align: center;
+    margin: 40px;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*About Me*/
+
+.about-me {
+    display: inline-block;
+    float: left;
+    background-color: var(--light);
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    color: var(--dark);
+}
+
+
+.image {
+    border: 3px solid teal;
+    width: 400px;
+    height: 300px;
+}
+
+/*My Applications*/
+
+.container {
+    display: inline-block;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #9CD8BD;
+    overflow: auto;
+    box-shadow: 6px 6px #A8BDBF;
+    border-radius: 10px;
+}
+
+.my-work {
+    float: left;
+    margin: 10px;
+}
+
+.first {
+    width: 400px;
+    height: 300px;
 }
 
 
@@ -107,7 +130,8 @@ a:hover{
 
 form {
     margin: 0 auto;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     padding: 10px;
     border: 3px solid var(--dark);
 
@@ -152,13 +176,17 @@ position: relative;
 
 footer{
     position: relative;
-    bottom: 0;
+    bottom: 0px;
+    margin: 100px 0px 0px 0;
     width:100%;
     height:40px;
     font-family: serif;
 }
 
-/* Tablets - header changes color */
+
+/* Media Querys */
+
+/* Tablets */
 @media screen and (max-width: 992px) {
     header, footer {
       background: #772014;
@@ -168,7 +196,7 @@ footer{
     }
   }
   
-  /* Large smartphones - navbar changes color */
+  /* Large smartphones */
   @media screen and (max-width: 768px) {
     nav {
       background-color: var(--media);
@@ -179,7 +207,7 @@ footer{
     }
   
   
-  /* Small smartphones - image placeholders change color */
+  /* Small smartphones */
   @media screen and (max-width: 576px) {
     .container {
       background-color: var(--media);
