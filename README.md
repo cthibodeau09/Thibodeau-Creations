@@ -21,3 +21,7 @@ N/A
 ## Features
 
 This website features a nav bar. When the links are clicked, they take you to that section of the page for more information about that topic. There is also an outsite link that when clicked, it will direct you to my Github server. There is an image link inside of "My Work" that when clicked, will direct you to my first website. At the bottom of the page there is a contact form.
+
+
+![Screenshot 2023-02-16 at 12 17 04 PM](https://user-images.githubusercontent.com/123329107/219439717-c28fb720-04a2-4e81-a657-b9120ab99f0b.png)
+![Screenshot 2023-02-16 at 12 17 18 PM](https://user-images.githubusercontent.com/123329107/219439730-232f43a7-4c43-4c75-9496-6c04d5a2570e.png)
