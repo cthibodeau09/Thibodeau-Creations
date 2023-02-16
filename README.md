@@ -2,8 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
 - My motivation for this website came from building my own portfolio for others to view.
 - I built this website for future employers to learn about me and the work I have done.
 - Throughout the creation of this webpage I learned the basics of HTML and CSS, how to add hover selecters to my navigation as well as decoration. I also learned how to make my website responsive for different broswers/users.
